@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Zoom animation */
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1); /* Slight zoom */
+  }
+}
+
+.zoom-animation {
+  animation: zoomIn 10s ease-in-out forwards; /* Customize the duration as needed */
+  background-size: cover;
+  background-position: center;
+}
