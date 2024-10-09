@@ -1,8 +1,8 @@
 export default function Hero() {
   return (
-    <div className="relative min-h-screen w-full flex justify-center items-center bg-cover">
+    <div className="relative min-h-screen w-full flex justify-center items-center bg-cover overflow-hidden">
       <div
-        className="absolute top-0 left-0 w-full min-h-screen"
+        className="absolute top-0 left-0 w-full min-h-screen zoom-animation"
         style={{
           backgroundImage: "url(./images/hero-banner.avif)",
           backgroundSize: "cover",
